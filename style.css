@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.material-icons {
+    vertical-align: -14%;
+}
+
+.bgimg-2 {
+    background-image: url("naruto.gif");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    background-image: url("hinata.gif");
+    background-color: darkslategrey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* clear floats after the column */
+.row::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* tools btn */
+.w3-btn {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    color:#000;
+    background-color:#E0B589;
+}
+
+.w3-allerta {
+    font-family: "Allerta Stencil", Sans-serif;
+}
+
+.w3-button {
+    text-align: center;
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.w3-2021-desert-mist { 
+    color:#000;
+    background-color:#E0B589;
+}
+
+footer {
+    text-align: center;
+    background-color: darkslategray;
+    padding: 50px;
+}
+
+@media screen and (max-device-width: 1600px) {
+    .column.side, .column.middle, .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}

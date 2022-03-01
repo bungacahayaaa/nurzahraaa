@@ -1,0 +1,77 @@
+body {
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .link {
+    min-width: 50% !important;
+  }
+
+  .w3-btn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+
+    .link {
+      width: 100%;
+    }
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  .w3-yellow,
+  .w3-hover-purple:hover,
+  .w3-text-black {
+    color: rgba(255, 204, 217) !important;
+    background-color: rgba(255, 255, 179, 0.3) !important;
+  }

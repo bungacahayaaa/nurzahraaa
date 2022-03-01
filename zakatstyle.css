@@ -1,0 +1,60 @@
+body {
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+#wrapper {
+    padding: 5px;
+    margin: 15% auto;
+    width: 300px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#button {
+    width: 190px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: skyblue;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: skyblue;
+    color: black;
+    border: skyblue 0.5px;
+    border-radius: 5px;
+    height: 80px;
+    width: 150px;
+    }
+button {
+    color :black;
+        border: 10px solid black;
+        border-radius: 10px;
+}

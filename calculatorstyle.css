@@ -1,0 +1,102 @@
+body {
+    background-color: var(--bg-color);
+    box-sizing: border-box;
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.tool-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.header {
+    text-align: center;
+}
+
+table {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #191b28;
+    box-shadow: var(--box-shadow)
+}
+
+.display-box {
+    font-family: 'Roboto', sans-serif;
+    background-color:  var(--white);
+    font-size: 24px;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    padding-left: 25px;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: var(--orange);
+    color: var(--black);
+    border: skyblue 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+}
+   
+.button:active {
+    background: #2a2e3d;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+@media (min-width: 700px) {
+    table {
+        height: 400px;
+        width: 600px;
+    }
+    .button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: skyblue;
+    color: black;
+    border: skyblue 0.5px;
+    border-radius: 5px;
+    height: 80px;
+    width: 150px;
+    }
+    
+   .display-box { 
+    background: grey;
+       height: 80px; 
+       width: 80%px;
+    }
+
+    .h1 {
+        font-style:italic ;
+        font-family:Arial, Helvetica, sans-serif;
+    }    
+}
+
+
+    button{
+        color :black;
+         border: 10px solid black;
+        border-radius: 10px;]0
+}
